@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>http://erichamiter.com</string>
+	<key>name</key>
+	<string>Arona</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#050B0F</string>
+				<key>caret</key>
+				<string>#AEAFAD</string>
+				<key>foreground</key>
+				<string>#C5C8C6</string>
+				<key>invisibles</key>
+				<string>#4B4E55</string>
+				<key>lineHighlight</key>
+				<string>#252525</string>
+				<key>selection</key>
+				<string>#052d45</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#969896</string><!--gray-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Foreground, Operator</string>
+			<key>scope</key>
+			<string>keyword.operator.class, keyword.operator, constant.other, source.php.embedded.line</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CED1CF</string><!--off-white-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable, String Link, Regular Expression, Tag Name</string>
+			<key>scope</key>
+			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CC6666</string><!--light red-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<key>scope</key>
+			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DE935F</string><!--light orange-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Class, Support</string>
+			<key>scope</key>
+			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F0C674</string><!--light yellow-orange-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String, Symbols, Inherited Class, Markup Heading</string>
+			<key>scope</key>
+			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CCCC99</string><!--light-beige-gold-->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function, Special Method, Block Level</string>
+			<key>scope</key>
+			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.toc-list.line-number.diff</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#81A2BE</string><!--light blue-->
+			</dict>
+		</dict>
+        <dict>
+            <key>name</key>
+            <string>Keyword, Storage</string>
+            <key>scope</key>
+            <string>keyword, storage, storage.type, punctuation.definition.range.diff</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#B294BB</string><!--purple-->
+            </dict>
+        </dict>
+		<dict>
+			<key>name</key>
+			<string>Source</string>
+			<key>scope</key>
+			<string>source.console</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#C5C8C6</string><!--console's non-defined text-->
+			</dict>
+		</dict>
+        <dict>
+            <key>name</key>
+            <string>Diff From File</string>
+            <key>scope</key>
+            <string>meta.diff.header.from-file</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFDDDD</string><!--light red-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Diff To File</string>
+            <key>scope</key>
+            <string>meta.diff.header.to-file</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDFFDD</string><!--light green-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Diff Old</string>
+            <key>scope</key>
+            <string>markup.deleted.diff</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFAAAA</string><!--red-->
+                
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Diff New</string>
+            <key>scope</key>
+            <string>markup.inserted.diff, markup.changed.diff</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#AAFFAA</string><!--green-->
+            </dict>
+        </dict>
+	<dict>
+		<key>name</key>
+		<string>Invalid</string>
+		<key>scope</key>
+		<string>invalid</string>
+		<key>settings</key>
+		<dict>
+			<key>background</key>
+			<string>#DF5F5F</string>
+			<key>fontStyle</key>
+			<string></string>
+			<key>foreground</key>
+			<string>#FAFAD2</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Separator</string>
+		<key>scope</key>
+		<string>meta.separator</string>
+		<key>settings</key>
+		<dict>
+			<key>background</key>
+			<string>#82A3BF</string>
+			<key>foreground</key>
+			<string>#224D70</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Deprecated</string>
+		<key>scope</key>
+		<string>invalid.deprecated</string>
+		<key>settings</key>
+		<dict>
+			<key>background</key>
+			<string>#B798BF</string>
+			<key>fontStyle</key>
+			<string></string>
+			<key>foreground</key>
+			<string>#62436A</string>
+		</dict>
+	</dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Annotations</string>
+            <key>scope</key>
+            <string>sublimelint.notes</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFAAE0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Outline</string>
+            <key>scope</key>
+            <string>sublimelint.illegal</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ff3A4ACC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Underline</string>
+            <key>scope</key>
+            <string>invalid.illegal</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF0000</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Warning Outline</string>
+            <key>scope</key>
+            <string>sublimelint.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DF940055</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Warning Underline</string>
+            <key>scope</key>
+            <string>invalid.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DF9400</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Violation Outline</string>
+            <key>scope</key>
+            <string>sublimelint.violation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffffff33</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Sublimelint Violation Underline</string>
+            <key>scope</key>
+            <string>invalid.violation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#999999</string>
+            </dict>
+        </dict>
+
+		
+	</array>
+	<key>uuid</key>
+	<string>20859851-3166-498b-8137-4cbf8ad052af</string>
+</dict>
+</plist>
