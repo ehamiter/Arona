@@ -12,17 +12,19 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#050B0F</string>
+				<string>#001417</string><!-- very dark blue-black -->
 				<key>caret</key>
-				<string>#AEAFAD</string>
+				<string>#B7CEEB</string><!-- light blue -->
 				<key>foreground</key>
-				<string>#C5C8C6</string>
+				<string>#C8C7C4</string><!-- gray-white -->
 				<key>invisibles</key>
-				<string>#4B4E55</string>
-				<key>lineHighlight</key>
-				<string>#252525</string>
+				<string>#4B4E55</string><!-- gray-blue -->
+                <key>lineHighlight</key>
+                <string>#252525</string><!-- gray-black -->
+                <key>gutterForeground</key>
+                <string>#606060</string><!-- dark gray -->
 				<key>selection</key>
-				<string>#052d45</string>
+				<string>#123466</string><!-- dark blue -->
 			</dict>
 		</dict>
 		<dict>
@@ -46,7 +48,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CED1CF</string><!--off-white-->
+				<string>#C8C7C4</string><!--gray-white-->
 			</dict>
 		</dict>
 		<dict>
@@ -135,7 +137,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C5C8C6</string><!--console's non-defined text-->
+				<string>#C8C7C4</string><!--console's non-defined text-->
 			</dict>
 		</dict>
         <dict>
