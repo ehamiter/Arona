@@ -72,7 +72,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#DE935F</string><!--light orange-->
+				<string>#F09C73</string><!--light orange-->
 			</dict>
 		</dict>
 		<dict>
@@ -85,7 +85,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#F0C674</string><!--light yellow-orange-->
+				<string>#F0C674</string><!--gold-orange-->
 			</dict>
 		</dict>
 		<dict>
@@ -98,20 +98,33 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#CCCC99</string><!--light-beige-gold-->
+				<string>#CCCC99</string><!--light beige-gold-->
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Function, Special Method, Block Level</string>
+            <key>scope</key>
+            <string>entity.name.function, support.function, meta.function-call, meta.block-level, keyword.other.special-method, meta.toc-list.line-number.diff</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#A3BCCB</string><!--light blue-->
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
-			<string>Function, Special Method, Block Level</string>
+			<string>Decorator</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.toc-list.line-number.diff</string>
+			<string>entity.name.function.decorator</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#81A2BE</string><!--light blue-->
+				<string>#A5C0A1</string><!--light green-->
 			</dict>
 		</dict>
         <dict>
@@ -124,20 +137,33 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#B294BB</string><!--purple-->
+                <string>#C2A1D1</string><!--purple-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Punctuation definitions, Arguments, Dictionaries</string>
+            <key>scope</key>
+            <string>punctuation.definition.arguments, punctuation.definition.dictionary, punctuation.definition.list, punctuation.definition.parameters</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#a0b4c8</string><!--light blue-->
             </dict>
         </dict>
 		<dict>
 			<key>name</key>
 			<string>Source</string>
 			<key>scope</key>
-			<string>source.console</string>
+			<string>source.console</string><!--console's non-defined text-->
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#C8C7C4</string><!--console's non-defined text-->
+				<string>#C8C7C4</string><!-- gray -->
 			</dict>
 		</dict>
         <dict>
@@ -193,11 +219,11 @@
 		<key>settings</key>
 		<dict>
 			<key>background</key>
-			<string>#DF5F5F</string>
+			<string>#DF5F5F</string><!-- red -->
 			<key>fontStyle</key>
 			<string></string>
 			<key>foreground</key>
-			<string>#FAFAD2</string>
+			<string>#FAFAD2</string><!-- light yellow -->
 		</dict>
 	</dict>
 	<dict>
@@ -208,9 +234,9 @@
 		<key>settings</key>
 		<dict>
 			<key>background</key>
-			<string>#82A3BF</string>
+			<string>#82A3BF</string><!-- blue -->
 			<key>foreground</key>
-			<string>#224D70</string>
+			<string>#224D70</string><!-- dark blue -->
 		</dict>
 	</dict>
 	<dict>
@@ -221,11 +247,11 @@
 		<key>settings</key>
 		<dict>
 			<key>background</key>
-			<string>#B798BF</string>
+			<string>#B798BF</string><!-- purple -->
 			<key>fontStyle</key>
 			<string></string>
 			<key>foreground</key>
-			<string>#62436A</string>
+			<string>#62436A</string><!-- dark purple -->
 		</dict>
 	</dict>
         <dict>
@@ -236,7 +262,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FFFFAAE0</string>
+                <string>#FFFFAA</string><!-- yellow -->
             </dict>
         </dict>
         <dict>
@@ -247,7 +273,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ff3A4ACC</string>
+                <string>#ff3A4A</string><!-- light red -->
             </dict>
         </dict>
         <dict>
@@ -258,7 +284,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF0000</string>
+                <string>#FF0000</string><!-- red -->
             </dict>
         </dict>
         <dict>
@@ -269,7 +295,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DF940055</string>
+                <string>#C2A1D1</string><!-- purple -->
             </dict>
         </dict>
         <dict>
@@ -280,7 +306,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DF9400</string>
+                <string>#C2A1D1</string><!-- purple -->
             </dict>
         </dict>
         <dict>
@@ -291,7 +317,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffffff33</string>
+                <string>#C2A1D1</string><!-- purple -->
             </dict>
         </dict>
         <dict>
@@ -302,11 +328,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#999999</string>
+                <string>#C2A1D1</string><!-- purple -->
             </dict>
         </dict>
-
-		
 	</array>
 	<key>uuid</key>
 	<string>20859851-3166-498b-8137-4cbf8ad052af</string>
