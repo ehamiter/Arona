@@ -5,6 +5,7 @@ Arona (*Maori: "colorful"*) is based directly off Chris Kempson's [Tomorrow-Nigh
 
 
 ![Arona screenshot](https://github.com/ehamiter/ST2-Arona-Theme/raw/master/arona.png)
+
 *Font shown in screenshot above is [Edlo](https://github.com/ehamiter/Edlo), and the theme is [Soda-Dark](https://github.com/buymeasoda/soda-theme).*
 
 Differences
