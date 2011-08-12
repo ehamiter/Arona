@@ -2,105 +2,105 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>comment</key>
-	<string>http://erichamiter.com</string>
-	<key>name</key>
-	<string>Arona</string>
-	<key>settings</key>
-	<array>
-		<dict>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#001417</string><!-- very dark blue-black -->
-				<key>caret</key>
-				<string>#B7CEEB</string><!-- light blue -->
-				<key>foreground</key>
-				<string>#C8C7C4</string><!-- gray-white -->
-				<key>invisibles</key>
-				<string>#4B4E55</string><!-- gray-blue -->
+    <key>comment</key>
+    <string>http://erichamiter.com</string>
+    <key>name</key>
+    <string>Arona</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#001417</string><!-- very dark blue-black -->
+                <key>caret</key>
+                <string>#B7CEEB</string><!-- light blue -->
+                <key>foreground</key>
+                <string>#C8C7C4</string><!-- gray-white -->
+                <key>invisibles</key>
+                <string>#4B4E55</string><!-- gray-blue -->
                 <key>lineHighlight</key>
                 <string>#252525</string><!-- gray-black -->
                 <key>gutterForeground</key>
                 <string>#606060</string><!-- dark gray -->
-				<key>selection</key>
-				<string>#123466</string><!-- dark blue -->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Comment</string>
-			<key>scope</key>
-			<string>comment</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#969896</string><!--gray-->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Foreground, Operator</string>
-			<key>scope</key>
-			<string>keyword.operator.class, keyword.operator, constant.other, source.php.embedded.line</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#C8C7C4</string><!--gray-white-->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable, String Link, Regular Expression, Tag Name</string>
-			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CC6666</string><!--light red-->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
-			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F09C73</string><!--light orange-->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Class, Support</string>
-			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#F0C674</string><!--gold-orange-->
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>String, Symbols, Inherited Class, Markup Heading</string>
-			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#CCCC99</string><!--light beige-gold-->
-			</dict>
-		</dict>
+                <key>selection</key>
+                <string>#123466</string><!-- dark blue -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#969896</string><!--gray-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Foreground, Operator</string>
+            <key>scope</key>
+            <string>keyword.operator.class, keyword.operator, constant.other, source.php.embedded.line</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#C8C7C4</string><!--gray-white-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Variable, String Link, Regular Expression, Tag Name</string>
+            <key>scope</key>
+            <string>variable, support.other.variable, string.other.link, string.regexp, entity.name.tag, entity.other.attribute-name</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CC6666</string><!--light red-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+            <key>scope</key>
+            <string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, punctuation.section.embedded</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#F09C73</string><!--light orange-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Class, Support</string>
+            <key>scope</key>
+            <string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#F0C674</string><!--gold-orange-->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String, Symbols, Inherited Class, Markup Heading</string>
+            <key>scope</key>
+            <string>string, constant.other.symbol, entity.other.inherited-class, markup.heading</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#CCCC99</string><!--light beige-gold-->
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Function, Special Method, Block Level</string>
@@ -114,19 +114,19 @@
                 <string>#A3BCCB</string><!--light blue-->
             </dict>
         </dict>
-		<dict>
-			<key>name</key>
-			<string>Decorator</string>
-			<key>scope</key>
-			<string>entity.name.function.decorator</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#A5C0A1</string><!--light green-->
-			</dict>
-		</dict>
+        <dict>
+            <key>name</key>
+            <string>Decorator</string>
+            <key>scope</key>
+            <string>entity.name.function.decorator</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#A5C0A1</string><!--light green-->
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Keyword, Storage</string>
@@ -153,19 +153,19 @@
                 <string>#a0b4c8</string><!--light blue-->
             </dict>
         </dict>
-		<dict>
-			<key>name</key>
-			<string>Source</string>
-			<key>scope</key>
-			<string>source.console</string><!--console's non-defined text-->
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#C8C7C4</string><!-- gray -->
-			</dict>
-		</dict>
+        <dict>
+            <key>name</key>
+            <string>Source</string>
+            <key>scope</key>
+            <string>source.console</string><!--console's non-defined text-->
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#C8C7C4</string><!-- gray -->
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Diff From File</string>
@@ -211,49 +211,49 @@
                 <string>#AAFFAA</string><!--green-->
             </dict>
         </dict>
-	<dict>
-		<key>name</key>
-		<string>Invalid</string>
-		<key>scope</key>
-		<string>invalid</string>
-		<key>settings</key>
-		<dict>
-			<key>background</key>
-			<string>#DF5F5F</string><!-- red -->
-			<key>fontStyle</key>
-			<string></string>
-			<key>foreground</key>
-			<string>#FAFAD2</string><!-- light yellow -->
-		</dict>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Separator</string>
-		<key>scope</key>
-		<string>meta.separator</string>
-		<key>settings</key>
-		<dict>
-			<key>background</key>
-			<string>#82A3BF</string><!-- blue -->
-			<key>foreground</key>
-			<string>#224D70</string><!-- dark blue -->
-		</dict>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Deprecated</string>
-		<key>scope</key>
-		<string>invalid.deprecated</string>
-		<key>settings</key>
-		<dict>
-			<key>background</key>
-			<string>#B798BF</string><!-- purple -->
-			<key>fontStyle</key>
-			<string></string>
-			<key>foreground</key>
-			<string>#62436A</string><!-- dark purple -->
-		</dict>
-	</dict>
+        <dict>
+            <key>name</key>
+            <string>Invalid</string>
+            <key>scope</key>
+            <string>invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#DF5F5F</string><!-- red -->
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#FAFAD2</string><!-- light yellow -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Separator</string>
+            <key>scope</key>
+            <string>meta.separator</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#82A3BF</string><!-- blue -->
+                <key>foreground</key>
+                <string>#224D70</string><!-- dark blue -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Deprecated</string>
+            <key>scope</key>
+            <string>invalid.deprecated</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#B798BF</string><!-- purple -->
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#62436A</string><!-- dark purple -->
+            </dict>
+        </dict>
         <dict>
             <key>name</key>
             <string>Sublimelint Annotations</string>
@@ -331,8 +331,8 @@
                 <string>#C2A1D1</string><!-- purple -->
             </dict>
         </dict>
-	</array>
-	<key>uuid</key>
-	<string>20859851-3166-498b-8137-4cbf8ad052af</string>
+    </array>
+    <key>uuid</key>
+    <string>20859851-3166-498b-8137-4cbf8ad052af</string>
 </dict>
 </plist>
