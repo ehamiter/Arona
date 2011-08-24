@@ -25,6 +25,10 @@
                 <string>#606060</string><!-- dark gray -->
                 <key>selection</key>
                 <string>#123466</string><!-- dark blue -->
+                <key>guideColor</key>
+                <string>#252525</string><!-- gray-black -->
+                <key>guideWidth</key>
+                <string>1</string><!-- width in pixels -->
             </dict>
         </dict>
         <dict>
