@@ -21,8 +21,14 @@
                 <string>#4B4E55</string><!-- gray-blue -->
                 <key>lineHighlight</key>
                 <string>#252525</string><!-- gray-black -->
+                <key>findHighlight</key>
+                <string>#b9edf8</string><!-- powder blue -->
                 <key>selection</key>
                 <string>#123466</string><!-- dark blue -->
+                <key>inactiveSelection</key>
+                <string>#263645</string><!-- grayish blue -->
+                <key>inactiveSelectionForeground</key>
+                <string>#263645</string><!-- grayish blue -->
                 <key>gutterForeground</key>
                 <string>#606060</string><!-- dark gray -->
                 <key>guide</key>
